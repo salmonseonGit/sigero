@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "funnel-graph-js": "^1.4.2"
+  }
+}
