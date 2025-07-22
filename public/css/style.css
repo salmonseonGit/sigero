@@ -3543,7 +3543,12 @@ a.logo:hover{
     color: #000;
 }
 .works-grid.hover-white .work-item:hover .work-img:after{    
-    background: rgba(250,250,250, .9);
+    background: rgba(0,0,0, .6);
+}
+
+.works-grid.hover-white .work-item .work-title,
+.works-grid.hover-white .work-item .work-descr {
+    color: #ffffff !important;
 }
 
 .work-item .work-img > img{ 
@@ -3722,10 +3727,9 @@ a.logo:hover{
     letter-spacing: -0.02em;
 }
 .banner-decription{
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     font-family: var(--font-global-alt);
-    font-size: 18px;
-    opacity: .72;
+    font-size: 16px;
 }
 .banner-image-1{
     width: 56.3%;
@@ -3750,6 +3754,7 @@ a.logo:hover{
     width: 100%;
 }
 .light-content .banner-decription{
+    text-align: left;
     font-weight: 400;
 }
 
